@@ -1,6 +1,4 @@
 
-# Thread
-
 Le "thread" présente plusieurs définitions possibles dans le contexte de l'informatique. Il peut s'agir de threads de [processus](https://techterms.com/definition/process), qui sont l'unité d'instruction de base exécutée par un [processeur](https://techterms.com/definition/processor) d'ordinateur. Il peut s'adresser à un thread de message dans les e-mails, les messages sur les médias sociaux ou [les messages instantanés](https://techterms.com/definition/im). Il peut également faire référence à un protocole [sans fil](https://techterms.com/definition/wireless) utilisé par les appareils domestiques intelligents pour communiquer entre eux.
 
 ### threads de procédé
