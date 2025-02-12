@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "4e89114421731704",
+    "type": "split",
+    "children": [
+      {
+        "id": "17015445d97f225d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89ce290b46d1a886",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fonctions du projet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fonctions du projet"
+            }
+          },
+          {
+            "id": "52dde8cb702621d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fonctions du projet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fonctions du projet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9b3225cc3a8dadc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "777f367f3d0f350d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "036dc9b606e6fb0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "d97c6aea743f17d4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "9a3f9afa216772a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2784186fd68eb902",
+    "type": "split",
+    "children": [
+      {
+        "id": "598e71aa1e83d9c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b9b6a15578f768d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "fonctions du projet.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour fonctions du projet"
+            }
+          },
+          {
+            "id": "1644d71335fd7d7d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants"
+            }
+          },
+          {
+            "id": "01baf3b17de79c45",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "400f09b42844bb22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Partie code.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Partie code"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "templates:Insérer le modèle": false,
+      "workspaces:Gérer les espaces de travail": false
+    }
+  },
+  "active": "89ce290b46d1a886",
+  "lastOpenFiles": [
+    "Partie code.md",
+    "fonctions du projet.md",
+    "Comprendre le projet (a completer ).md",
+    "fr.subject.pdf",
+    "Philosophers fr (un off).md",
+    "pthread-join().md",
+    "The dining philosophers problem.md",
+    "Thread.md",
+    "Sans titre.md",
+    "Pasted image 20250210191059.png",
+    "techterms.com/definition/thread.md",
+    "techterms.com/definition",
+    "techterms.com",
+    "COURSUS 42.md",
+    "2025-02-10.md",
+    "The dining philosohpers problem.md",
+    "here.md",
+    "Sans titre 1.canvas",
+    "Sans titre.canvas",
+    "en résumé.md",
+    "test.md",
+    "Bienvenue.md",
+    "créez un lien.md"
+  ]
+}
