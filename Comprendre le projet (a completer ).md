@@ -28,7 +28,6 @@ Les processus et les threads sont des séquences d'exécution indépendantes. La
 
 	* cela signifie qu'une variable est simplement copiée, si nous modifions la variable dans un processus, elle ne sera pas modifiée dans l'autre 
 
-
 ## Fils
 
 * partager l'espace mémoire

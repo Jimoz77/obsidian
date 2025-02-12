@@ -20,11 +20,6 @@ int main(void) {
 ```
 
 
-
-
-
-
-
 # gettimeofday()
 
 ```
@@ -63,10 +58,6 @@ Vous trouverez plus d'informations sur **gettimeofday()** [ici](https://man7.org
 
 
 
-
-
-
-
 # pthread-create()
 
 ```
@@ -82,12 +73,6 @@ Vous trouverez plus d'informations sur `pthread_create()`[Ici](https://man7.org/
 
 
 
-
-
-
-
-
-
 # pthread-join()
 
 ```
@@ -95,13 +80,16 @@ int pthread_join(pthread_t thread, void **retval);
 ```
 
 ```
-       The pthread_join() function waits for the thread specified by
-       thread to terminate.  If that thread has already terminated, then
-       pthread_join() returns immediately.  The thread specified by
-       thread must be joinable.
+      La fonction pthread_join() attend que le thread spécifié par
+       thread à terminer.  Si ce fil est déjà terminé, alors
+       pthread_join() renvoie immédiatement.  Le thread spécifié par
+       le thread doit pouvoir être joint.
 ```
 
 Le `pthread_join()`la fonction attend le filetage spécifié par `thread`de mettre fin. Si ce fil s'est déjà terminé, alors `pthread_join()`retours immédiatement.
+
+Attention il ne faut pas confondre cette fonction avec un mutex.
+Le mutex veille a ce que un partie du code soit accessible pour un seul thread à la fois alors que "`pthread_join`" sert a bloquer un thread jusqu'à ce que le premier ait terminé son exécution.
 
 ```
 #include <pthread.h>
@@ -158,6 +146,8 @@ int pthread_mutex_init(pthread_mutex_t *restrict mutex, const pthread_mutexattr_
 
 Le `pthread_mutex_init()`initialise la fonction mutex référencée par `mutex`avec les attributs spécifiés par `attr`. Si `attr`est `NULL`, les attributs mutex par défaut sont utilisés. Lorsque le `mutex`est initialisé avec succès, l'état mutex devient `initialized`et `unlocked`.
 
+attention a ne pas confondre avec "`pthread_join`" comment expliqué dans le paragraphe concernant la fonction
+
 ```
 #include <pthread.h>
 
@@ -173,9 +163,6 @@ int main(void)
 L'exemple ci-dessus utilise le `pthread_mutex_init()`fonction d'initialiser une nouvelle `mutex`qui peut être utilisé à partir de tous les fils que nous voulons.
 
 Vous trouverez plus d'informations sur `pthread_mutex_init()`[Ici](https://man7.org/linux/man-pages/man3/pthread_mutex_destroy.3p.html).
-
-
-
 
 
 
@@ -224,9 +211,6 @@ int pthread_mutex_lock(pthread_mutex_t *mutex);
 Le `pthread_mutex_lock()`fonction verrouille le mutex référencé par `mutex`.
 
 Vous trouverez plus d'informations sur `pthread_mutext_lock()`[Ici](https://man7.org/linux/man-pages/man3/pthread_mutex_lock.3p.html).
-
-
-
 
 
 
